@@ -32,7 +32,9 @@ export const App = () => {
 
       <section className="section">
         <h2>
-          <FaGithub /> Resources
+          <u>
+            <FaGithub /> Resources
+          </u>
         </h2>
         <p>
           Find the complete assembly script and detailed instructions on our
