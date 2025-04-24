@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+:root {
+  color-scheme: light dark;
+  color: #d0d0d0;
+  background-color: #4c6b73;
+  letter-spacing: 0.05rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100dvh;
+  font-family: "JetBrains Mono", monospace;
+  background-color: #4c6b73;
+  color: #eaeaea;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #1c1c1c10 0%,
+    #1c1c1c10 50%,
+    #3c3c3c10 50%,
+    #3c3c3c10 100%
+  );
+  background-size: 100% 10px;
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-repeat: repeat-y;
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #4c6b73 #1c1c1c62;
+  }
+  *::-webkit-scrollbar {
+    width: 0.1rem;
+    background-color: #4c6b73;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #1c1c1c62;
+    border-radius: 0.5rem;
+  }
+  *::-webkit-scrollbar-track {
+    background-color: #4c6b73;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #1c1c1c;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #3c3c3c;
+  border-radius: 0.5rem;
+}
+
+input {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
