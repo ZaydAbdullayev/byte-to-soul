@@ -157,8 +157,8 @@ void send_transactions() {
         </h3>
         <p>Finalized transactions are submitted to Jito’s bundle endpoint.</p>
         <div className="code-block">
-          <pre>{`curl -X POST https://mainnet.block-engine.jito.wtf/api/v1/bundles \
--H "Content-Type: application/json" \
+          <pre>{`curl -X POST https://mainnet.block-engine.jito.wtf/api/v1/bundles \n
+-H "Content-Type: application/json" \n
 -d '{"jsonrpc":"2.0","id":1,"method":"sendBundle","params":[["3B98p3...SignedTransactionEncoded"]]}'`}</pre>
         </div>
       </section>
