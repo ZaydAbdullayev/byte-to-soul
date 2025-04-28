@@ -22,7 +22,7 @@ export const App = () => {
           <span className="status">CPU: x86_64 | MEMORY: 16 KB</span>
         </div>
         <div className="intro">
-          <h1>Welcome to our journey with ByteToSoul</h1>
+          <h1>Welcome to our journey with Token Assembler </h1>
           <p>
             A tribute to low-level programming mastery. Explore how we deployed
             a token entirely in raw assembly language.
@@ -243,7 +243,7 @@ void generate_key_pair() {
       </section>
 
       <footer className="footer">
-        © 2025 ByteToSoul. Forged from bare metal.
+        © 2025 Token Assembler . Forged from bare metal.
       </footer>
     </div>
   );
