@@ -4,6 +4,10 @@
   padding: 48px 24px;
 }
 
+.title{
+  text-transform: uppercase;
+}
+
 .header-info {
   display: flex;
   justify-content: space-between;

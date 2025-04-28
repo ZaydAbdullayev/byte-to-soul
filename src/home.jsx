@@ -18,7 +18,7 @@ export const App = () => {
     <div className="page-container">
       <header className="header">
         <div className="header-info">
-          <span className="title">BYTE-TO-SOUL</span>
+          <span className="title">Token Assembler</span>
           <span className="status">CPU: x86_64 | MEMORY: 16 KB</span>
         </div>
         <div className="intro">
@@ -235,7 +235,12 @@ void generate_key_pair() {
           connect with like-minded individuals.
         </p>
         <div className="btns">
-          <button className="btn">
+          <button
+            className="btn"
+            onClick={() => {
+              window.open("https://x.com/tokenassembler", "_blank");
+            }}
+          >
             Follow <RiTwitterXFill />
           </button>
           <button className="btn">Join the Network</button>
